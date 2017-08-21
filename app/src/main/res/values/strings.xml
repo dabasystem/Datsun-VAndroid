@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Datsun</string>
+    <!--Welcome strings-->
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_Descri">Cum socis natoque penatibus et magns dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+
+    <!--Login strings-->
+    <string name="login_des">Maecenas sed diam egetrisus varius blandit sit amet non magna.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot"><u>Forgot Password?</u></string>
+
+    <!--SendPassword strings-->
+    <string name="sendpass_des">Maecenas sed diam egetrisus varius blandit sit amet non magna.</string>
+    <string name="sendpass">Send Password</string>
+    <string name="email">Email</string>
+
+    <!--SignUp strings-->
+    <string name="sign_up_des">Maecenas sed diam egetrisus varius blandit sit amet non magna.</string>
+    <string name="nick_name">Nick Name</string>
+    <string name="eadress">E-mail address</string>
+    <string name="retype_pass">Retype password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="continu">Continue</string>
+
+</resources>
