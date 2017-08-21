@@ -28,6 +28,7 @@ public class SendPass extends AppCompatActivity {
                 if (res) {
                     Intent intent = new Intent(SendPass.this, AlertSendPass.class);
                     startActivity(intent);
+                    //sd
                 }
             }
         });
