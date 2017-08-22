@@ -25,4 +25,29 @@
     <string name="phone_number">Phone number</string>
     <string name="continu">Continue</string>
 
+    <!--Dialog SendPassword-->
+    <string name="dialogPassText">We have sent the password to you mail account</string>
+    <string name="ok">Ok</string>
+
+    <!--Dialog SignUp-->
+    <string name="dialogSignUp">This email already exists. Log in to finish the sign up</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!--SecondSignUp-->
+    <string name="vin_number">Vin number</string>
+    <string name="car_model">Car model</string>
+    <string name="serial_number">Serial number</string>
+    <string name="dealer_ship">Dealer Ship</string>
+    <string name="autocall">Autocall Center</string>
+    <string name="persona">Personal information</string>
+    <string name="full_name">Full name</string>
+    <string name="car_owner">Car owner</string>
+    <string name="country">Country</string>
+    <string name="region">Region</string>
+    <string name="location">Location</string>
+    <string name="privacy_settings">Privacy settings</string>
+    <string name="data_protection">Data protection act</string>
+    <string name="legal">Legal</string>
+    <string name="disclaimer">Disclaimer</string>
+
 </resources>

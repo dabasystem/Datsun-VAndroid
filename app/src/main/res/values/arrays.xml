@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vin_number_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+    <string-array name="car_model_array">
+        <item>Car 1</item>
+        <item>Car 2</item>
+        <item>Car 3</item>
+        <item>Car 4</item>
+        <item>Car 5</item>
+        <item>Car 6</item>
+        <item>Car 7</item>
+        <item>Car 8</item>
+        <item>Car 9</item>
+        <item>Car 10</item>
+        <item>Car 11</item>
+    </string-array>
+</resources>

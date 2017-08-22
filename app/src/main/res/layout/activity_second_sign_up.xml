@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.desarrollo.datsun.SecondSignUp">
+
+    <ScrollView
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="9dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="3000dp">
+
+            <TextView
+                android:id="@+id/txtVin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vin_number"
+                android:layout_marginLeft="32dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:id="@+id/txtCarModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/car_model"
+                android:layout_marginTop="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtVin"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/txtVin" />
+
+            <TextView
+                android:id="@+id/txtSerialNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/serial_number"
+                android:layout_marginTop="24dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtCarModel"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/txtCarModel" />
+
+            <TextView
+                android:id="@+id/txtDealerShip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dealer_ship"
+                android:layout_marginTop="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtSerialNumber"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/txtSerialNumber" />
+
+            <TextView
+                android:id="@+id/txtAutocallCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/autocall"
+                android:layout_marginTop="19dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtDealerShip"
+                android:layout_marginLeft="0dp"
+                app:layout_constraintLeft_toLeftOf="@+id/txtDealerShip" />
+
+            <TextView
+                android:id="@+id/txtPersonalInformation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/persona"
+                tools:layout_editor_absoluteY="240dp"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageView
+                android:id="@+id/imagVin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                app:layout_constraintTop_toTopOf="@+id/txtVin"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtVin"
+                android:layout_marginBottom="0dp"
+                app:layout_constraintVertical_bias="0.695"
+                android:layout_marginRight="32dp"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageView
+                android:id="@+id/imagCarModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtCarModel"
+                app:layout_constraintTop_toTopOf="@+id/txtCarModel"
+                app:layout_constraintVertical_bias="0.739"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                android:layout_marginRight="0dp"
+                app:layout_constraintRight_toRightOf="@+id/imagVin" />
+
+            <ImageView
+                android:id="@+id/imagDealerShip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_send"
+                app:layout_constraintTop_toTopOf="@+id/txtDealerShip"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtDealerShip"
+                android:layout_marginBottom="0dp"
+                app:layout_constraintVertical_bias="0.695"
+                android:layout_marginRight="0dp"
+                app:layout_constraintRight_toRightOf="@+id/imagCarModel" />
+
+            <Switch
+                android:id="@+id/swiAutocall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="@+id/txtAutocallCenter"
+                android:layout_marginTop="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/txtAutocallCenter"
+                android:layout_marginBottom="0dp"
+                app:layout_constraintVertical_bias="0.444"
+                android:layout_marginRight="0dp"
+                app:layout_constraintRight_toRightOf="@+id/imagDealerShip" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                tools:layout_editor_absoluteY="257dp"
+                tools:layout_editor_absoluteX="16dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

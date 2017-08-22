@@ -1,5 +1,7 @@
 package com.example.desarrollo.datsun;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -36,8 +38,26 @@ public class SignUp extends AppCompatActivity {
                         String arroba = "@";
                         boolean res = email.getText().toString().contains(arroba);
                         if(res){
+                            AlertDialog.Builder builder = new AlertDialog.Builder(SignUp.this);
+                            builder.setMessage(R.string.dialogSignUp).setPositiveButton(R.string.login, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                    Intent intent = new Intent(SignUp.this,Login.class);
+                                    startActivity(intent);
+                                }
+                            }).setNegativeButton(R.string.cancelar, new DialogInterface.OnClickListener() {
+                                @Override
+                                public void onClick(DialogInterface dialog, int which) {
+                                    dialog.cancel();
+                                    Intent intent = new Intent(SignUp.this,SecondSignUp.class);
+                                    startActivity(intent);
+                                }
+                            });
+                            AlertDialog alerta = builder.create();
+                            alerta.show();
+                            /*
                             Intent intent = new Intent(SignUp.this, SendPass.class);
-                            startActivity(intent);
+                            startActivity(intent);*/
                         }
                     }
                 }
